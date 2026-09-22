@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Akasha Iqbal" }],
   creator: "Akasha Iqbal",
   alternates: { canonical: "/" },
+  icons: { icon: "/icon.svg" },
   openGraph: {
     title: "Akasha Iqbal | English Educator & Literary Researcher",
     description: "The professional portfolio of Akasha Iqbal, English educator and literary researcher.",
