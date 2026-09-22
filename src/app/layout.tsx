@@ -20,7 +20,15 @@ export const metadata: Metadata = {
   creator: "Akasha Iqbal",
   category: "education",
   alternates: { canonical: "/" },
-  icons: { icon: "/icon.svg" },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "256x256" },
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/icon.png",
+  },
   verification: { google: "GoVY514zhiJbKBcxB-NMo2-mgX-oQYUOYdIzoPCRTIw" },
   openGraph: {
     title: "Akasha Iqbal | English Educator & Literary Researcher",
